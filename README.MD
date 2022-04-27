@@ -1,0 +1,31 @@
+# gdb
+1. 这是一个针对iot的gdb编译项目
+2. 其功能是编译gdb最新的static版本
+3. 由于最最新的gdb依赖gmp,因此gmp不支持的版本均不在此项目的支持队列
+4. 考虑到兼容性问题,需要用户提供具体的复现环境才可修复
+5. 欢迎提issue
+6. 根据需要也同步提供包含expat的版本
+6. 支持riscv哦(⊙o⊙)
+7. happy friday
+
+# 目前支持的分支如下
+1. aarch64-linux-gnu
+2. alpha-linux-gnu
+3. arm-linux-gnueabi
+4. arm-linux-gnueabihf
+5. hppa-linux-gnu
+6. i686-linux-gnu
+7. mips64el-linux-gnuabi64
+8. mips64-linux-gnuabi64
+9. mipsel-linux-gnu
+10. mipsisa64r6el-linux-gnuabi64
+11. mipsisa64r6-linux-gnuabi64
+12. mips-linux-gnu
+13. powerpc64le-linux-gnu
+14. powerpc64-linux-gnu
+15. powerpc-linux-gnu
+16. riscv64-linux-gnu
+17. s390x-linux-gnu
+18. sh4-linux-gnu
+19. sparc64-linux-gnu
+20. x86_64
